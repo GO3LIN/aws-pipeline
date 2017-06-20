@@ -8,6 +8,7 @@ hooks:
     - location: scripts/install
       timeout: 300
       runas: root
+  ApplicationStart:
     - location: scripts/start
       timeout: 300
       runas: root
